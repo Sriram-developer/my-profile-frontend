@@ -31,7 +31,7 @@ const Login = ({ setLoginUser}) => {
 
     return (
         <div className="login">
-            <h1>Login</h1>
+            <h1>GUVI Login</h1>
             <input type="text" name="email" value={user.email} onChange={handleChange} placeholder="Enter your Email"></input>
             <input type="password" name="password" value={user.password} onChange={handleChange}  placeholder="Enter your Password" ></input>
             <div className="button" onClick={login}>Login</div>
